@@ -12,7 +12,7 @@ void main()
         if (child1 == 0)
         {
             // child1
-            printf("child1 N2 and pid is %d\n", getpid());
+            printf("child1 N2 and pid is %d  parent pid is %d\n", getpid(),getppid());
             
         }
        else if (child1 > 0)
@@ -22,7 +22,7 @@ void main()
             if (child2 == 0)
             {
                 // child2
-                printf("child2 N3 and pid is %d\n", getpid());
+                printf("child2 N3 and pid is %d and parent pid is %d\n", getpid(),getppid());
                
         
             grandchild = fork();
@@ -35,6 +35,7 @@ void main()
             }
            }
     }
+    
     
 
        

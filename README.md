@@ -7,3 +7,4 @@
 |Chubchik Alexander    | Chuppy101     |-    |-    |-    |-    |
 |Chen Yongyu           | yongyuchen    |-    |-    |-    |-    |
 |Nelson Eze            | nelstein      |-    |-    |-    |-    |
+|Jeff Lusweti          | Jeff-Lusweti  |-    |-    |-    |-    |

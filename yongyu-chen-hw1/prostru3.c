@@ -21,14 +21,14 @@ int main()
 	return 0;
     }
     pid_3 = fork();	
-    wait(&status);
+    wait(&status3);
 
     if (pid_3 == 0){
        printf("				n3 Process id: %d\n", getpid()); 
        printf("				Parent id: %d\n", getppid()); 
 	    
        pid_4 = fork();
-       wait(&status);
+       wait(&status4);
 
        if (pid_4 == 0) {
 	       printf("				n4 Process id: %d\n", getpid());

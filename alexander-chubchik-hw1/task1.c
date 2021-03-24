@@ -7,6 +7,7 @@ void main()
     pid_t Parent, child1, child2;
  
     printf("This is first process and its pid is %d\n", getpid());
+    printf("Parent process has id %d\n", getppid());
 
     Parent = fork();
     if(Parent == 0)

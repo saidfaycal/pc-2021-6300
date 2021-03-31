@@ -40,8 +40,16 @@ git push --set-upstream origin steven-rodgers-hw1
 ```
 ## After that you can go to https://github.com/NataRazmochaeva/pc-2021-6300 and to create new pull request using green button on site 
 
-## FAQ
-### Login problems 
+## For every new homework CREATE NEW BRANCH ONLY FROM MAIN BRANCH :
+```git 
+git checkout main
+```
+```git 
+git checkout -b <new_branch_name>
+```
+
+# FAQ
+## Login problems 
 Sometimes git says that it doesn't know you yet, you can say who you are using login commands:
 ```git 
 git config --global user.name "your_username"
@@ -49,9 +57,9 @@ git config --global user.name "your_username"
 ```git 
 git config --global user.email "your_email_address@example.com"
 ```
-### Push problems
+## Push problems
 Sometimes git will reject your push command. It usually happens when changes were done in remote repository by somebody. It is absolutely normal case. Before creating, for example, your folder for HW-2 you should do git pull command for getting remote changes into your local repository. 
 ```git 
 git pull
 ```
-
+After push command in your loсal repository files and folders of your classmates will appear. Please, dont remove and do not any changes in your classmates files and folders.

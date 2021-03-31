@@ -4,7 +4,7 @@
 
 |Studemts Name         | Github account| HW1 | HW2 | HW3 | Exam|
 |:---------------------|:--------------|:----|:----|:----|:----|
-|Naveen Sheoran        | naveenpardeep |-    |-    |-    |-    |
+|Naveen Sheoran        | naveenpardeep |5    |-    |-    |-    |
 |Moubarek Barre Hassan | MOUBAREK1998  |-    |-    |-    |-    |
 |Chubchik Alexander    | Chuppy101     |-    |-    |-    |-    |
 |Chen Yongyu           | yongyuchen    |-    |-    |-    |-    |

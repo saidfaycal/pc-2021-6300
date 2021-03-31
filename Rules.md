@@ -2,6 +2,7 @@
 
 ## 1. ONLY TEACHER CAN MERGE PULL REQUEST
 ## 2. ONLY TEACHER CAN DO CHANGES IN MAIN BRANCH
+## 3. DO NOT ANY CHANGES IN YOUR CLASSMATES FOLDERS
 ## 3. KEEP ROOT DIRECTORY WITHOUT YOUR FILES
 ## 4. CREATE NEW BRANCH AND NEW FOLDER FOR EVERY NEW HOMEWORK
 
@@ -15,8 +16,3 @@ For example, branch for Homework 1 by student with name Steven Rogers shoud be: 
 11. Theacher will check your PR and will add comments
 12. You need to do changes considering teacher's comments
 13. You need push changes into your branch (your PR will be updated automatically)
-
-## 14. CREATE NEW BRANCH ONLY FROM MAIN BRANCH FOR EVERY NEW HOMEWORK:
-git checkout main
-
-git checkout -b <new_branch_name>

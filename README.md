@@ -1,5 +1,7 @@
 # Parallel Computing 6300
 
+# Read Rules https://github.com/NataRazmochaeva/pc-2021-6300/blob/main/Rules.md before working with repo
+
 |Studemts Name         | Github account| HW1 | HW2 | HW3 | Exam|
 |:---------------------|:--------------|:----|:----|:----|:----|
 |Naveen Sheoran        | naveenpardeep |-    |-    |-    |-    |

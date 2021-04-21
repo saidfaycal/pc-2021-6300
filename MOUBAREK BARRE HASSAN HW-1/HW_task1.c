@@ -1,12 +1,14 @@
 // Task1 Linear structure of processes: P1 -> P2 -> P3 + P4
 
+// Task1 Linear structure of processes: P1 -> P2 -> P3 + P4
+
 #include <unistd.h>
 #include <stdio.h>
 
 int main(void) {
 	pid_t pid, pid1, pid2, pid_temp, pid_temp1, pid_temp2, pid_temp3; 
 	pid_t ppid, ppid1, ppid2, ppid_temp, ppid_temp1, ppid_temp2, ppid_temp3;
-	int status, status1, status2, status3;
+	
 
 	printf("Parent start\n");
 	pid_temp = getpid();
@@ -43,7 +45,7 @@ int main(void) {
 		else {
 				// in Child2
 				// Waiting for Child3       
-				wait(&status2);
+				
 				printf("\t\tChild2 stopped\n");
 			}
 			return 0; // for stops Child2
@@ -62,11 +64,11 @@ int main(void) {
 				printf("\t\t\tChild3 stopped\n");
 				return 0; // for stops Child3
 			}
-    }
+    
 		else {
 			// in Child1
 			// Waiting for Child2       
-			wait(&status1);
+			
 			printf("\tChild1 stopped\n");
 		}        
 		return 0; // for stops Child1
@@ -74,7 +76,7 @@ int main(void) {
 	else {
 		// Parent process
 		// Waiting for Child1       
-		wait(&status);
+		
 		printf("Parent stopped\n");
 	} 
 	return 0; // for stops Parent

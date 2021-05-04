@@ -1,30 +1,36 @@
-// C++ Code to demonstrate getppid() 
-#include <stdio.h> 
-#include <unistd.h> 
-  
-// Driver Code 
-int main() 
-{ 
-    pid_t pid1, pid11_new,pid12_new;
-    printf("Current Process id: %d \n", getpid()); 
-    printf(" Current Parent Process id: %d \n", getppid()); 
+#include<unistd.h>
+#include<stdio.h>
+void main()
+{
 
-    pid1 = fork();
+    pid_t n2,n3,n4;
+ 
+    printf("I'm n1 and my pid is  %d\n", getpid());
+    
 
-    if (pid1== 0) {    
-        printf("1st Child Process id: %d \n", getpid()); 
-        printf("Parent Process id: %d \n", getppid()); 
-        pid11_new = fork();
-        if (pid11_new == 0){
-            printf("11nd Child Process id: %d \n", getpid()); 
-            printf("Parent Process id: %d \n", getppid()); 
-pid12_new = fork();
-        if (pid12_new == 0){
-            printf("12nd Child Process id: %d \n", getpid()); 
-            printf("Parent Process id: %d \n", getppid()); 
-        } 
+  n2= fork();
+        if (n2 == 0)
+        {
+            printf("I'm n2 and my pid is %d \n", getpid()); 
+   printf("and my father is n1 and his pid  %d \n", getppid());
+         
+            
+        n3=fork();
+         if (n3 == 0)
+         {
+        printf("I'm n3 and my pid is %d \n", getpid()); 
+   printf("and my father is n2 and his pid  %d \n", getppid());  
+         }
+    else if (n3 > 0)  
+    {
+      n4= fork();
+        if (n4 == 0)
+         {
+        printf("I'm n4 and my pid is %d \n", getpid()); 
+   printf("and my father is n2 and his pid  %d \n", getppid());  
+         }
+      
     }
-      }
+        }
+}
 
-    return 0; 
-} 

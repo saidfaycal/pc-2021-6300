@@ -6,7 +6,7 @@
 |:---------------------|:--------------|:----|:----|:----|:----|
 |Naveen Sheoran        | naveenpardeep |5    |-    |-    |-    |
 |Moubarek Barre Hassan | MOUBAREK1998  |-    |-    |-    |-    |
-|Chubchik Alexander    | Chuppy101     |-    |-    |-    |-    |
+|Chubchik Alexander    | Chuppy101     |5    |-    |-    |-    |
 |Chen Yongyu           | yongyuchen    |5    |-    |-    |-    |
 |Nelson Eze            | nelstein      |-    |-    |-    |-    |
 |Jeff Lusweti          | Jeff-Lusweti  |-    |-    |-    |-    |
